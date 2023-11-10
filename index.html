@@ -14,30 +14,36 @@
 </head>
 <body>
 <header>
-    <nav id="header-nav" class="navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <a href="index.html" class="">
-                    <div id="logo-img" alt="logo image"></div>
-                </a>
-                <div class="navbar-brand">
-                    <a href="index.html"><h6>Sea Food</h6></a>
-                    <p>
-                        
-                        
-                    </p>
-                </div>
+    <nav id="header-nav" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+             <a href="#" class="navbar-brand">
+                <img src="/image/fish.jpg" alt="Logo" class="d-inline-block align-text-top" id="logo-img">
+                <span class="image-text"><img src="/image/fast-food-outline.svg" id="fastfood">Fish & Chips restaurant</span>
+             </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#h">Haddock</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#r">Rock</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#p">Plaice</a>
+                  </li>
+                </ul>
             </div>
-            
-        </div>
+        </div>    
     </nav>
-
 </header>
     <h1>Our Menu</h1>
     <div class="row">
         <div class="col-lg-4 col-md-6">
             <div class="food">
-            <h2>Haddock</h2>
+            <h2 id="h">Haddock</h2>
             <p> 
             Squalus acanthias
             Rock fillets are sturdier
@@ -50,7 +56,7 @@
         </div>
         <div class="col-lg-4 col-md-6">
             <div class="food">
-            <h3>Rock</h3>
+            <h3 id="r">Rock</h3>
                 <p> 
                 Melanogrammus aeglefinus 
                 Haddock is similar to Cod's lean but slightly
@@ -62,7 +68,7 @@
             </div>
             <div class="col-lg-4 col-md-12">
                 <div class="food">
-                <h4>Plaice</h4>
+                <h4 id="p">Plaice</h4>
                 <p> 
                 Pleuronectes platessa
                 Plaice is a flat fish with soft flesh and a
